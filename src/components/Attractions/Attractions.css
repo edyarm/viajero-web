@@ -1,0 +1,7 @@
+.Attractions {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+    max-width: 500px;
+    flex-wrap: wrap;
+}

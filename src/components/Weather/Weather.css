@@ -1,0 +1,42 @@
+.Weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-card {
+    display: grid;
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.weather-card h2 {
+    position: relative;
+    padding: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 0.78;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.weather-card img {
+    background-color: black;
+    margin: auto;
+}
+
+.sectiontitle {
+    width: 300px;
+    align-items: center;
+}
+
+.sectiontitle h2 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    text-align: left;
+    color: #4a4a4a;
+}
